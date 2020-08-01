@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const setLoaded = (payload) => ({
     type: 'SET_LOADING',
-    payload,
+    payload:true,
 });
 
 export const fetchPizzas = (sortBy,category) => (dispatch) => {
